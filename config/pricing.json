@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "verifiedOn": "2026-09-25",
+  "basis": "Public Standard API rates. Actual account billing, credits, taxes, discounts and local compute are not included. The original run did not record a response service tier; Standard pricing is assumed.",
+  "models": {
+    "gpt-6-astra": {
+      "inputPerMillion": 10,
+      "cachedInputPerMillion": 1,
+      "cacheWritePerMillion": 12.5,
+      "outputPerMillion": 50,
+      "maxInputTokens": 272000,
+      "requiresCacheDetails": true,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    },
+    "jev-1.13.0": {
+      "inputPerMillion": 0.042,
+      "cachedInputPerMillion": 0.042,
+      "cacheWritePerMillion": 0.042,
+      "outputPerMillion": 0,
+      "maxInputTokens": 64000,
+      "requiresCacheDetails": false,
+      "source": "https://docs.typesafe.ai/models"
+    }
+  },
+  "cacheAccountingSource": "https://developers.openai.com/api/docs/guides/prompt-caching"
+}

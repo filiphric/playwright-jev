@@ -1,0 +1,17 @@
+node_modules
+cli/node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+coverage
+.nyc_output
+.vscode
+e2e/.auth/
+test-results/
+playwright-report/
+backend/data/uploaded/*
+.env
+.vscode/*
+
+!/**/.gitkeep

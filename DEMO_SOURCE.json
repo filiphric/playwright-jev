@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/filiphric/trelloapp-workshop-app",
+  "commit": "40ef2daa837fafca5baeb46b57698480b9b0e329",
+  "method": "git archive HEAD into demo; no nested Git repository, credentials, dependencies, or local modifications copied",
+  "sourceChanges": "None. Build configuration and comparison harness live outside demo. Server restores its original database on shutdown."
+}
